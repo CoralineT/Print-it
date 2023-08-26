@@ -59,7 +59,6 @@ function slidesChanges(sens) {
 		currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
 	}
 
-	console.log(currentSlideIndex);
 	carousselSlideChange(currentSlideIndex);
 }
 
